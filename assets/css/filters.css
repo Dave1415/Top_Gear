@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.container .filters {
+	height: 80px;
+	background-color: rgb(123, 123, 138);
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.container .filters button {
+	font-size: 18px;
+	background-color: #FF5A5F;
+	height: 40px;
+	width: 40%;
+	border: none;
+	border-radius: 4px;
+	display: block;
+}
+.container .form-control {
+	height: 40px;
+	position: relative;
+
+}
+.container .filters button:hover {
+	opacity: 0.8;
+}
+
+.container .filters h3 {
+	font-weight: 600;
+	margin: 12px 0 4px 40px;
+}
+
+.filters h4 {
+	font-weight: 400;
+	font-size: 14px;
+	margin: 7px 0 3px 40px;
+}
+.container .filters .type:hover .popover {
+	display: list-item;
+}
+.container .filters .models:hover .popover {
+	display: list-item;
+}
+.container .filters .popover {
+	display: none;
+	list-style-type: disc;
+	background-color: #fafafa65;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	padding:  30px 40px 40px 30px;;
+	margin: 15px -1px 0 -1px;
+}
+.container .filters .popover ul {
+	list-style-type: none;
+	padding-left: 2px;
+}
+.container .filters .popover li {
+	margin: 5px 0 5px 0;
+}
+.container .find {
+	display: flex;
+	flex-flow: row;
+}
+footer {
+	background: #090123ec;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	bottom: 0px;
+	position: relative;
+	text-align: center;
+	border-top: 1px solid #CCCCCC;
+}

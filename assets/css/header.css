@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+.container .column {
+	height: 100px;
+	background-color: rgba(231, 229, 234, 0.744);
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 8px;
+	position: center;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+.container .column h2 {
+    text-align: left;
+    padding: 20px;
+}
+.container .column img {
+    text-align: left;
+    padding: 5px;
+    border-radius: 50px;
+    background-color:  rgba(231, 229, 234, 0.744);
+}
+.container .column .register {
+    padding: auto;
+    font-size: 18px;
+	height: 48px;
+	width: 20%;
+	border: none;
+	border-radius: 2px;
+	margin: auto 30px auto auto;
+    text-align: center;
+}
+
